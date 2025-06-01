@@ -1,5 +1,7 @@
 # Rapport : Diagramme de Classes - Système de Gestion de Stock
 
+![image](https://github.com/user-attachments/assets/48bed13c-3007-4420-a54e-a7da4c351bb2)
+
 ## 1. Introduction
 Ce document présente le diagramme de classes pour un système de gestion de stock basé sur la stack MEAN (MongoDB, Express.js, Angular, Node.js).
 
