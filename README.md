@@ -2,37 +2,6 @@
 
 Ce projet est une application web de gestion de stock utilisant la stack MEAN (MongoDB, Express.js, Angular, Node.js). L'application permet de gérer les produits, les niveaux de stock, les mouvements d'entrée et de sortie, ainsi que de générer des rapports sur l'état des stocks.
 
-## Structure du Projet
-
-```
-/
-├── backend/                 # Serveur Express.js
-│   ├── config/              # Configuration (MongoDB, JWT, etc.)
-│   ├── controllers/         # Contrôleurs pour les routes API
-│   ├── middleware/          # Middleware (auth, validation, etc.)
-│   ├── models/              # Modèles MongoDB
-│   ├── routes/              # Routes API
-│   ├── utils/               # Utilitaires
-│   ├── server.js            # Point d'entrée du serveur
-│   └── package.json         # Dépendances backend
-│
-├── frontend/                # Application Angular
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── components/  # Composants Angular
-│   │   │   ├── models/      # Interfaces TypeScript
-│   │   │   ├── services/    # Services Angular
-│   │   │   ├── guards/      # Guards pour la protection des routes
-│   │   │   └── ...
-│   │   ├── assets/          # Ressources statiques
-│   │   └── ...
-│   ├── angular.json         # Configuration Angular
-│   └── package.json         # Dépendances frontend
-│
-├── DiagrammeClasses.md      # Diagramme de classes UML
-└── README.md                # Documentation du projet
-```
-
 ## Fonctionnalités
 
 - Authentification et autorisation (JWT)
